@@ -1,0 +1,163 @@
+/* Sidebar */
+body{
+    background-image: url('/public/Reaper1.png');
+    background-size: cover; /* Adjust as needed */
+    /* Additional styling properties */
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+  }
+  /* Content */
+  #content {
+    position:relative;
+    padding: 120px;
+   
+  }
+  
+  /* Modal */
+  .modal-content {
+    background-color: #f4f4f4;
+  }
+  
+  /* Ajouter des styles supplémentaires au besoin */
+  .logo img {
+    width: 100px;
+    margin-bottom: 5px;
+    margin-top: -20px;
+  }
+  
+  .logo{
+    text-align: left
+  }
+  .logo span {
+    font-size: 1.4em;
+    font-weight: bold;
+    position: absolute;
+    top: 45px;
+    color: #53e48f
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px; /* Adjust the margin as needed */
+  }
+  
+  .form-group label {
+    margin-bottom: 5px; /* Adjust the margin as needed */
+  }
+  
+  h2{
+    font-family: "Goudy Bookletter 1911" ; color: #ffffff
+  }
+  .table > :not(caption) > * > * {
+    padding: .5rem .5rem;
+    color: white;
+    background-color: gray;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-bg-state,var(--bs-table-bg-type,var(--bs-table-accent-bg)));
+  }
+  .loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 254, 254, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+  
+  .login-form {
+    max-width: 390px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    position: relative;
+    background-color: white; /* Utilisez "background-color" au lieu de "backgroundColor" */
+    top: 120px;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .form-group button:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .loader-circle {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top: 4px solid #3498db;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar label {
+    font-weight: bold;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
